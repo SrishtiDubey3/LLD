@@ -20,21 +20,87 @@ package com.example.singleton;
 //}
 
 
+
 // Main to check lazy singleton is not thread-safe
+
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        // Create multiple threads that try to get the singleton instance
+//        Runnable task = () -> {
+//            LazySingleton instance = LazySingleton.getInstance();
+//            System.out.println("Instance hashcode: " + instance.hashCode());
+//        };
+//
+//	    // Create multiple threads (20 or more to provoke race condition)
+//	    for (int i = 0; i < 20; i++) {
+//	          Thread th = new Thread(task);
+//	          th.start();
+//	    }
+//    }
+//}
+
+
+
+
+// Main function for "Double Checked Locking Singleton"
+
+//public class Main {
+//
+//    public static void main(String[] args) {
+//        // Create multiple threads that try to get the singleton instance
+//        Runnable task = () -> {
+//            DoubleCheckedLocking instance = DoubleCheckedLocking.getInstance();
+//            System.out.println("Instance hashcode: " + instance.hashCode());
+//        };
+//
+//	    // Create multiple threads (20 or more to provoke race condition)
+//	    for (int i = 0; i < 20; i++) {
+//	          Thread th = new Thread(task);
+//	          th.start();
+//	    }
+//    }
+//}
+
+
+
+
+//Main function for "Eager Singleton"
+
+//public class Main {
+//
+// public static void main(String[] args) {
+//     // Create multiple threads that try to get the singleton instance
+//     Runnable task = () -> {
+//         EagerInitialization instance = EagerInitialization.getInstance();
+//         System.out.println("Instance hashcode: " + instance.hashCode());
+//     };
+//
+//	    // Create multiple threads (20 or more to provoke race condition)
+//	    for (int i = 0; i < 20; i++) {
+//	          Thread th = new Thread(task);
+//	          th.start();
+//	    }
+// }
+//}
+
+
+
+//Main function for "Enum Singleton"
 
 public class Main {
 
-    public static void main(String[] args) {
-        // Create multiple threads that try to get the singleton instance
-        Runnable task = () -> {
-            LazySingleton instance = LazySingleton.getInstance();
-            System.out.println("Instance hashcode: " + instance.hashCode());
-        };
+	public static void main(String[] args) {
+	   // Create multiple threads that try to get the singleton instance
+	   Runnable task = () -> {
+	       EnumSingleton instance = EnumSingleton.INSTANCE;
+	       System.out.println("Instance hashcode: " + instance.hashCode());
+	   };
 
 	    // Create multiple threads (20 or more to provoke race condition)
 	    for (int i = 0; i < 20; i++) {
 	          Thread th = new Thread(task);
 	          th.start();
 	    }
-    }
+	}
 }
