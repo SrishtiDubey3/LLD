@@ -11,8 +11,8 @@ This repository demonstrates the implementation of Core Object-Oriented Design P
 ✅ Builder Pattern
 
 ### - Structural Design Pattern
-✅ Adapter
-✅ Decorator
+✅ Adapter //
+✅ Decorator //
 ✅ Composite
 
 ### - Behavirol Pattern
