@@ -4,10 +4,23 @@
 
 This repository demonstrates the implementation of Core Object-Oriented Design Patterns in Java, including:
 
+### - Creational Design Pattern
 ✅ Singleton Design Pattern
 ✅ Factory Method Pattern  
 ✅ Abstract Factory Pattern  
-✅ Builder Pattern 
+✅ Builder Pattern
+
+### - Structural Design Pattern
+✅ Adapter
+✅ Decorator
+✅ Composite
+
+### - Behavirol Pattern
+✅ Observer Design Pattern
+✅ Strategy Design Pattern
+✅ Command Design Pattern
+✅ Chain of Responsibilty Design Pattern
+✅ Iterator Design Pattern
 
 
 Each pattern is implemented with clean code, comments, and structured folder organization to make learning and usage easy and effective.
