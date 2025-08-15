@@ -22,12 +22,12 @@ This repository demonstrates the implementation of Core Object-Oriented Design P
 ✅ Chain of Responsibilty Design Pattern  
 ✅ Iterator Design Pattern  
 
-Each pattern is implemented with clean code, comments, and structured folder organization to make learning and usage easy and effective.
+Each pattern is implemented with clean code, comments, and structured folder organization to make learning and usage easy and effective.  
 
 
 ---
 
-
+  
 ## All Design Patterns - Quick Notes
 
 #### 1️⃣ Singleton  
