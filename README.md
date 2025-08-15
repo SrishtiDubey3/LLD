@@ -28,29 +28,29 @@ Each pattern is implemented with clean code, comments, and structured folder org
 
 ## All Design Patterns - Quick Notes
 
-### 1️⃣ Singleton  
+#### 1️⃣ Singleton  
 Idea: Only one object exists in the whole system.  
 When to use: When you want only ONE instance of a class, like one President of a country or one Control Room.  
 Example: TV Remote — no matter who uses it, there’s just ONE that controls the TV.
 
-2️⃣ Adapter
-Idea: Makes two incompatible things work together.
-When to use: When you have existing code that doesn’t fit with new code.
+#### 2️⃣ Adapter  
+Idea: Makes two incompatible things work together.  
+When to use: When you have existing code that doesn’t fit with new code.  
 Example: Mobile charger adapter — it lets a charger with a different plug work in your socket.
 
-3️⃣ Iterator
-Idea: Lets you move through items in a collection one by one without knowing how it’s stored.
-When to use: When you want to go through a list, set, or collection easily.
+#### 3️⃣ Iterator
+Idea: Lets you move through items in a collection one by one without knowing how it’s stored.  
+When to use: When you want to go through a list, set, or collection easily.  
 Example: TV channel remote’s "Next" button — you don’t care about how channels are stored, you just go next-next-next.
 
-4️⃣ Factory Method
-Idea: Creates objects without telling you the exact class name.
-When to use: When you don’t want to expose object creation logic.
+#### 4️⃣ Factory Method
+Idea: Creates objects without telling you the exact class name.  
+When to use: When you don’t want to expose object creation logic.  
 Example: Ice cream shop — you say "I want chocolate," and they give you a chocolate ice cream without you making it yourself.
 
-5️⃣ Bridge
-Idea: Separates an object’s abstraction from its implementation so they can change independently.
-When to use: When you have many combinations of objects and implementations.
+#### 5️⃣ Bridge
+Idea: Separates an object’s abstraction from its implementation so they can change independently.  
+When to use: When you have many combinations of objects and implementations.  
 Example: TV and remote — any brand of remote can control any brand of TV if connected.
 
 6️⃣ Observer
