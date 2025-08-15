@@ -28,9 +28,9 @@ Each pattern is implemented with clean code, comments, and structured folder org
 
 ## All Design Patterns - Quick Notes
 
-1️⃣ Singleton
-Idea: Only one object exists in the whole system.
-When to use: When you want only ONE instance of a class, like one President of a country or one Control Room.
+### 1️⃣ Singleton  
+Idea: Only one object exists in the whole system.  
+When to use: When you want only ONE instance of a class, like one President of a country or one Control Room.  
 Example: TV Remote — no matter who uses it, there’s just ONE that controls the TV.
 
 2️⃣ Adapter
