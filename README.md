@@ -24,7 +24,9 @@ This repository demonstrates the implementation of Core Object-Oriented Design P
 
 Each pattern is implemented with clean code, comments, and structured folder organization to make learning and usage easy and effective.
 
+
 ---
+
 
 ## All Design Patterns - Quick Notes
 
@@ -53,19 +55,19 @@ Idea: Separates an object’s abstraction from its implementation so they can ch
 When to use: When you have many combinations of objects and implementations.  
 Example: TV and remote — any brand of remote can control any brand of TV if connected.
 
-6️⃣ Observer
-Idea: One-to-many relationship — when one changes, others get notified.
-When to use: For event systems like notifications.
+#### 6️⃣ Observer
+Idea: One-to-many relationship — when one changes, others get notified.  
+When to use: For event systems like notifications.  
 Example: You subscribe to a YouTube channel — when the creator uploads, all subscribers are notified.
 
-7️⃣ Abstract Factory
-Idea: Creates families of related objects without specifying exact classes.
-When to use: When your system needs to be independent of how objects are created.
+#### 7️⃣ Abstract Factory
+Idea: Creates families of related objects without specifying exact classes.  
+When to use: When your system needs to be independent of how objects are created.  
 Example: Furniture factory — one factory makes a whole family: chair, table, and sofa in the same style.
 
-8️⃣ Composite
-Idea: Treat individual objects and groups of objects the same way.
-When to use: When you have hierarchies like folders and files.
+#### 8️⃣ Composite
+Idea: Treat individual objects and groups of objects the same way.  
+When to use: When you have hierarchies like folders and files.  
 Example: A folder can contain files or other folders — but you can "open" both the same way.
 
 9️⃣ Strategy
