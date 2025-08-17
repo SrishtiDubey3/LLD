@@ -70,22 +70,22 @@ Idea: Treat individual objects and groups of objects the same way.
 When to use: When you have hierarchies like folders and files.  
 Example: A folder can contain files or other folders — but you can "open" both the same way.
 
-9️⃣ Strategy
-Idea: Define different algorithms and make them interchangeable at runtime.
-When to use: When you want multiple ways to do something.
+#### 9️⃣ Strategy  
+Idea: Define different algorithms and make them interchangeable at runtime.  
+When to use: When you want multiple ways to do something.  
 Example: Google Maps routes — you can choose "by car," "by bike," or "on foot" without changing the app.
 
-🔟 Builder
-Idea: Step-by-step construction of complex objects.
-When to use: When an object has many parts and combinations.
+#### 🔟 Builder
+Idea: Step-by-step construction of complex objects.  
+When to use: When an object has many parts and combinations.  
 Example: Making a burger — you add bun, patty, cheese, sauce step-by-step until complete.
 
-1️⃣1️⃣ Decorator
-Idea: Add features to an object without changing its structure.
-When to use: When you want to extend functionality at runtime.
+#### 1️⃣1️⃣ Decorator
+Idea: Add features to an object without changing its structure.  
+When to use: When you want to extend functionality at runtime.  
 Example: Ice cream cone — start with vanilla, then add sprinkles, nuts, and syrup.
 
-1️⃣2️⃣ Command
+#### 1️⃣2️⃣ Command
 Idea: Wrap a request as an object so you can undo/redo it later.
 When to use: For actions like "Undo" in an editor.
 Example: TV remote button — each button sends a specific command to the TV.
