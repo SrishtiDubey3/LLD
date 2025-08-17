@@ -90,14 +90,14 @@ Idea: Wrap a request as an object so you can undo/redo it later.
 When to use: For actions like "Undo" in an editor.
 Example: TV remote button — each button sends a specific command to the TV.
 
-1️⃣3️⃣ Prototype
-Idea: Create new objects by cloning an existing one.
-When to use: When creating objects is expensive or complex.
+#### 1️⃣3️⃣ Prototype
+Idea: Create new objects by cloning an existing one.  
+When to use: When creating objects is expensive or complex.  
 Example: Copying a drawing by photocopying instead of drawing it again.
 
-1️⃣4️⃣ Facade
-Idea: Provide a simple interface to a complex system.
-When to use: When you want to hide complexity from the user.
+#### 1️⃣4️⃣ Facade
+Idea: Provide a simple interface to a complex system.  
+When to use: When you want to hide complexity from the user.  
 Example: TV remote — instead of adjusting circuits manually, you press one button to turn on TV.
 
 1️⃣5️⃣ State
