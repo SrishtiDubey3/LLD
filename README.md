@@ -100,14 +100,14 @@ Idea: Provide a simple interface to a complex system.
 When to use: When you want to hide complexity from the user.  
 Example: TV remote — instead of adjusting circuits manually, you press one button to turn on TV.
 
-1️⃣5️⃣ State
-Idea: Change object behavior based on its state.
-When to use: When object’s actions depend on current condition.
+#### 1️⃣5️⃣ State
+Idea: Change object behavior based on its state.  
+When to use: When object’s actions depend on current condition.  
 Example: Mobile phone — behavior changes if it’s locked, unlocked, or in low-battery mode.
 
-1️⃣6️⃣ Flyweight
-Idea: Share objects to save memory.
-When to use: When many similar objects exist.
+#### 1️⃣6️⃣ Flyweight
+Idea: Share objects to save memory.  
+When to use: When many similar objects exist.  
 Example: A game with trees — instead of creating 1,000 separate trees, reuse one tree model with different positions.
 
 1️⃣7️⃣ Template Method
