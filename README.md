@@ -110,14 +110,14 @@ Idea: Share objects to save memory.
 When to use: When many similar objects exist.  
 Example: A game with trees — instead of creating 1,000 separate trees, reuse one tree model with different positions.
 
-1️⃣7️⃣ Template Method
-Idea: Base class defines the skeleton of an algorithm, and subclasses fill in the details.
-When to use: When you want to keep structure same but change steps.
+#### 1️⃣7️⃣ Template Method
+Idea: Base class defines the skeleton of an algorithm, and subclasses fill in the details.  
+When to use: When you want to keep structure same but change steps.  
 Example: Making tea or coffee — boil water (same), add tea leaves or coffee powder (different).
 
-1️⃣8️⃣ Proxy
-Idea: Controls access to another object.
-When to use: When you want to add security, logging, or lazy loading.
+#### 1️⃣8️⃣ Proxy
+Idea: Controls access to another object.  
+When to use: When you want to add security, logging, or lazy loading.  
 Example: Security guard — you can’t enter directly, guard checks your ID first.
 
 1️⃣9️⃣ Visitor
