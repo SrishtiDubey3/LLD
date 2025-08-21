@@ -130,14 +130,14 @@ Idea: Central object that controls communication between others.
 When to use: When many objects communicate in a complex way.  
 Example: Air traffic control tower — pilots talk to tower, tower coordinates all planes.
 
-2️⃣1️⃣ Memento
-Idea: Save and restore object state without exposing details.
-When to use: For undo functionality.
+#### 2️⃣1️⃣ Memento
+Idea: Save and restore object state without exposing details.  
+When to use: For undo functionality.  
 Example: Video game save point — you can return to the saved state anytime.
 
-2️⃣2️⃣ Chain of Responsibility
-Idea: Pass request along a chain until one handles it.
-When to use: When you don’t know who will handle the request.
+#### 2️⃣2️⃣ Chain of Responsibility
+Idea: Pass request along a chain until one handles it.  
+When to use: When you don’t know who will handle the request.  
 Example: Customer service — your complaint passes from receptionist → manager → director until solved.
 
 ---
