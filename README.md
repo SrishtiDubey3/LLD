@@ -120,14 +120,14 @@ Idea: Controls access to another object.
 When to use: When you want to add security, logging, or lazy loading.  
 Example: Security guard — you can’t enter directly, guard checks your ID first.
 
-1️⃣9️⃣ Visitor
-Idea: Add new operations to objects without changing them.
-When to use: When you want to perform different tasks on elements of an object structure.
+#### 1️⃣9️⃣ Visitor
+Idea: Add new operations to objects without changing them.  
+When to use: When you want to perform different tasks on elements of an object structure.  
 Example: Doctor visiting patients — doctor changes what they do depending on patient type.
 
-2️⃣0️⃣ Mediator
-Idea: Central object that controls communication between others.
-When to use: When many objects communicate in a complex way.
+#### 2️⃣0️⃣ Mediator
+Idea: Central object that controls communication between others.  
+When to use: When many objects communicate in a complex way.  
 Example: Air traffic control tower — pilots talk to tower, tower coordinates all planes.
 
 2️⃣1️⃣ Memento
